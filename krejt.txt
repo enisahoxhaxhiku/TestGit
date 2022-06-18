@@ -1,0 +1,501 @@
+Përmbajtja  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fushëveprimi i projektit (Project Scope) 
+
+ 
+
+Biblioteka e qytetit kerkon te implementoj nje sistem per menaxhim dhe mirembajtje ne menyre qe te lehtesoj administrimin. Ky sistem do te ofroj mundesi per perkujdesje te regjistrimit te secilit individ. Do grumbulloj informacione personale dhe ne baze te tyre do te ndjek cdo hap tjeter qe do behet. 
+
+Informacionet personale jane te llojit: emer, mbiemer, moshe, adrese, pastaj libri i deshiruar dhe koha e caktuar dhe ndoshta edhe ndonje arsye personale per librin e kerkuar nga ana e tyre. 
+
+Gjithashtu lexuesit mund te identifikohen edhe me nje numer te cilin do e posedojne pas regjistrimit ne biblioteke, si lexues te rregullt ose thjesht si lexues. 
+
+Ne momentin qe ne softuer kerkohet titulli i librit dhe emri i autorit, do te shfaqen rezultatet e kerkuara per disponueshmeri te librit dhe sasine e tyre ne biblioteke. 
+
+Informacione tjera te cila do te merren parasysh dhe do te menaxhohen jane edhe pjesa e kohes; se sa mbahen librat nga nje person dhe data se kur duhet kthyer, koha e voneses dhe cdo moskthim i librit. 
+
+Pastaj do shikohet edhe pjesa e dhurimit te librave qe behen ne kuader te ndonje shkolle, organizate apo grup njerzish per qellime personale apo bamiresie. 
+
+ 
+
+Analiza teknike dhe teknologjike 
+
+ 
+
+Per te bere nje analize te projektit duhet qe te percaktojme nje strategji integrimi,te gjejme platformat dhe kornizat e duhura per sistemin dhe te dokumentojme kerkesat jofunksionale.Ky proces ben nje vleresim te te gjithe teknologjise dhe mjeteve qe mund te perdoren per te zhvilluar nje sistem digjital.Te gjithe keto hapa bazohen ne qellime dhe kerkesa te projektit. 
+
+Ne fillimisht kemi filluar duke e bere nje analize te thellle te kerkesave te projektit ,pastaj kemi ndare sistemin ne komponenta funksionale per analize te cdo moduli,kemi bere hulumtime ne meyre qe te mbledhim njohuri per te listuar te gjitha teknologjite,platformat,kornizat,mjetet e disponueshme per te zhvilluar cdo komponent.Kemi shikuar per biblioteka me burim te hapur,API-te,prototipet etj.Kemi percaktuar rreziqet e munshme dhe kufizimet.Keta hapa jane te listuar me poshte. 
+
+ 
+
+Hulumtimi për projektet e ngjashme 
+
+ 
+
+ 
+
+Edhe se shume biblioteka kane ende sistemin e menaxhimit ne forme manuale, vetedijesimi i tyre per krijim te nje sistemi digjital eshte rritur mjaftueshem dhe shume prej tyre edhe e kan implementuar ate ne keto vitet e fundit.  
+
+Nje prej rasteve te perdorimit te kesaj teknologjie eshte edhe Follett Destiny Library Manager. I cili eshte nje sistem i plote qe mund te menaxhohet 24/7 nga kudo.  
+
+Shembull tjeter eshte edhe Accessit Library.  
+
+Eshte i krijuar per te mbeshtetur te gjithe shkollen ose organizaten tone duke i permiresuar rrjedhat e punes. Mesuesit dhe nxenesit mund te kontrollojne te gjithe permbajtjen lokale ne internet me nje kerkim te vetem.  
+
+Rasti tre: webLIBRARIAN  
+
+Softuer i automatizuar dhe i integruar i bazuar ne web i cili ka shume vendndodhje dhe dege qe mundson menaxhimin dhe shperndarjen e informacionit jo vetem nga nje liber  
+
+por edhe nga ndonje artikull,gazete, hart, grafik. 
+
+ 
+
+Hardware analiza 
+
+ 
+
+Fillimisht per te ditur dhe specifikuar hardware-in duhet ditur disa kushte si: buxheti i disponushem, shpejtsia e kerkuar dhe hapsira per te dhena, kerkesa per monitorim, disponueshmeria etj.  
+
+Duke filluar nga pajisjet periferike thjesht na nevojiten:  
+
+a) Tastiera dhe maus,  
+
+b) Printer,  
+
+c) Skaner,  
+
+Per skanim te kopertines se librit, imazhe, foto te perdoruesve per ti vendosur ne softuer.  
+
+d) Printer barkodi,  
+
+Barkodet per identifikim te librave dhe kartelave te perdoruesve. Kërkohet printer barkodi për të gjeneruar dhe printuar. 
+
+ 
+
+Software analiza 
+
+ 
+
+Softueri i sistemit të menaxhimit të bibliotekës duhet të jetë i përshtatshëm për përdoruesit dhe me kosto efektive. Ai duhet të jetë në harmoni me nevojat e ndërmarrjes dhe në përputhje me teknologjinë ekzistuese. Baza e të dhënave të bibliotekës përfshin të gjithë informacionin përkatës në lidhje me asetet dhe detajet e anëtarësimit. Softueri regjistron detaje mbi të gjitha materialet e leximit dhe referencës në dispozicion për lexim dhe huazim. 
+
+ 
+
+ 
+
+Fizibiliteti teknik  
+
+ 
+
+Fizibiliteti teknik ka per qellim te inspektoje nese softueri jone mund te ndertohet ose jo ,me mjetet dhe ekspertet ne dispozicion. Ky fizibilitet ne nje softuer eshte pjesa me komplekse e analizes se plote.Varet nga buxheti i disponueshem,afatet kohore,kufizimet ligjore dhe operacionet pas zhvillimit. 
+
+ 
+
+Rreziku  
+
+ 
+
+Nje nga rreziqet qe mund te paraqitet eshte prishja e bazes se te dhenave qe mund te behet ne cdo kohe te caktuar per shkaqe si ndonje virus apo deshtime te sistemit operativ. Prandaj preferohet qe te mbahen kopje rezerve e bazes se te dhenave, ne menyre qe te mos humbas perfundimisht.  UPS/inverteri duhet të jetë aty në rast të dështimit të furnizimit me energji elektrike.  
+
+Per shkak te rreziqeve qe mund te paraqiten lind kerkesa per siguri, qe sistemi duhet te perdore. Pastaj perdoruesit  thjeshte nuk duhet te kene akses ne modifikimin e te dhenave tjera pervec te dhenave te tyre personale dhe disa informacione tejera te cilat specifikohen.  
+
+Perndryshe duhet te sigurohet vertetimi i duhur i perdoruesit. Pastaj vjen edhe pjesa e sigurise kibernetike, ne menyre qe te mos jete i mundur hakimi i fjalekalimit te perdoruesve. Duhet te kete llogari te ndara per administratore dhe anetare te tjere, ku nenkuptohet se administratori ka privilegje per ndryshime dhe modifikime te cfardoshme te te dhenave. 
+
+ 
+
+Madhësia e projektit   
+
+ 
+
+Madhesia e projektit tone do te jete mesatare, pasi qe ndikojne faktore te ndryshem ne kete rezultat te caktuar. Duke filluar qe nga buxheti I nevojshem per zhvillimin e ketij sistemi, koha e nevojshme per zhvillim, numri I antareve ne ekipen e zhvillimit, kompleksiteti I realizimit te projektit. Duke marre parasysh qe kompleksiteti shkon e rritet qe nga faza e kerkesave e duke shkuar tutje ne fazen e realizimit dhe zhvillimit dhe po ashtu koha e nevojshme per zhvillim te projektit do te jete 3-6 muaj, e disa nga faktoret tjere bjene qe ky projekt te jete I madhesise se mesme. 
+
+ 
+
+Fizibiliteti operacional 
+
+ 
+
+Ketu behet ekzaminimi se sa mire nje sistem eshte i propozuar,kuperfiton nga mundesite e identifikura gjate fazave te definimit dhe ndertimit dhe nga te cilat cdo kerkese eshte perfshire tashme,dhe si ai permbushe cdo detyrim qe eshte caktuar gjate fazes se zhvillimit te procesit te biznesit. 
+
+Target grupi 
+
+ 
+
+Audienca e targetuar është një grup i mundshëm klientësh për biznesin tonë.  Përfshin të gjithë ata që kanë më shumë gjasa t'i përgjigjen pozitivisht promovimeve, produkteve dhe shërbimeve tona. Të kesh një profil gjithëpërfshirës të audiencës së targetuar do të na ndihmojë të përcaktojmë më mirë se çfarë kërkojnë klientët tonë dhe të vendosim se si mund t'u shërbejmë nevojave të tyre.  
+
+  
+
+Hapi I: Krijojmë përshkrime të gjera të klientit tonë  
+
+Ne do të krijojmë sistemin për menaxhimin e biblotekës. Marrim parasysh profilin e mëposhtëm:  
+
+“Arbeni është punëtor i njërës ndër biblotekat e qytetit. Ai aktualisht menaxhon punën e tij si një biblotekar në mënyrë manuale. Puna e tij e përditshme është mjaft e lodhshme pasi që përfshinë: kërkimin e librave në çdo raft (ekziston apo jo ai libër), marrja e shënimeve për secilin vizitor (librin që do të marr ose që po e rikthen në biblotekë), rasti kur i humbasin shënimet dhe nuk ka më ndonjë evidencë për vizitorët e biblotekës etj.”  
+
+Bazuar në këtë profil mund të supozojmë se një ndër pikat më të rëndësishme për Arbenin është lehtësimi i punës së tij. Duke lënë anash formën manuale, projekti jonë do ti ndihmojë Arbenit duke e kthyer të gjithë procesin e punës në mënyrë digjitale. Ku shumë thjeshtë do të kërkoj titullin e librit dhe emrin e autorit, dhe do të shfaqen rezultatet e kërkuara për disponueshmërinë e librit dhe sasinë e tyre në bibliotekë.  
+
+  
+
+Hapi II: Të hulumtojmë demografinë e klientëve tonë të mundshëm.  
+
+Tani që kemi disa përshkrime të gjera rreth klientit tonë ideal, mund të fillojmë të shtojmë më shumë detaje rreth klientëve siç janë:  
+
+mosha  
+
+lokacioni  
+
+profesioni etj.  
+
+ Hapi III: Identifikimi i nevojave dhe problemeve të audiencës së targetuar  
+
+Të vendosim veten në vendin e klientëve tonë dhe të shikojmë shërbimet tona nga këndvështrimi i tyre.   
+
+Çfarë shqetësimesh mund të kenë ata që produkti jonë i ndihmon të ndihen më mirë?  
+
+Si e zgjidh produkti jonë një problem me të cilin po përballen?  
+
+Për çfarë shqetësohen ata që mund t'i pengojë të blejnë produktin tonë? 
+
+ 
+
+ 
+
+Menaxhimi i projektit 
+
+ 
+
+Në fazën fillestare të projektit do të shqyrtohen kërkesat, objektivat e projektit si dhe qëllimet që dëshirojmë t’i arrijmë me anë të tij. Pasi secili nga antarët e ekipës ka kuptuar pikat më lartë dhe jemi dakorduar se secila nga ato pika janë të realizueshme nga ana teknike, do të filloj ndarja e detyrave për secilin nga ta. Ndarja e detyrave do të bëhët në baza javore, por në mënyrë që të sigurohemi që projekti do të menaxhohet mirë në kohë, atëherë do të përcjellet secili nga antarët e ekipës herë pas herë. Ekipa do të jetë e mirëseardhur në rast të ndonjë ideje të veqantë e cila mund të kursejë kohë, buxhet si dhe mund të jetë më funksionale sesa ideja e përcaktuar më herët. Me anë të kësaj metode do të bëhet menaxhimi i projektit deri në fazën përfundimtare, apo në lëshimin (deployment) e projektit. 
+
+ 
+
+Zgjerueshmeria 
+
+ 
+
+Ne kemi dy opsione sa i përket zgjerueshmërisë:  
+
+Zvogëlimi:   
+
+Zvogëlimi do të thotë të rrisim numrin e makinerive ose shembullit në të cilin programi funksionon (serverët) ose kryen operacione, në vend që të kemi një kompjuter të fuqishëm, duhet të kemi shumë shembuj të kompjuterëve dhe të ndajmë ngarkesën ose kërkesat nëpër to. Ne mund të ndajmë dinamikisht ngarkesën (trafikun, kërkesat) ndërmjet makinave duke përdorur një balancues ngarkese.  
+
+ 
+
+Rritja:  
+
+Rritja e shkallës do të thotë të rrisim fuqinë llogaritëse dhe ruajtjen e makinës, në vend që të kemi shumë makina, ne mund të rrisim specifikimet e makinës.  
+
+Nuk ka asnjë opsion optimal, nuk mund të argumentojmë se përshkallëzimi është opsioni më i mirë, varet nga problemi dhe zgjidhja, dhe shumë faktorë tjerë, por mund të argumentojmë se përdorimi i një përzierjeje midis të dy opsioneve është një zgjidhje e vlefshme dhe përdoret nga kompani të ndryshme. 
+
+ 
+
+ 
+
+Trajnimet   
+
+ 
+
+Trajnimet e ekipes sone jane adekuate per zhvillimin e ksaj platforme. Stafi jone eshte i trajnuar per pjesen e front-end, e cila do te zhvillohet me teknologjine e react.js, pjesen e back-end, e cila do te zhvillohet me asp.net, si dhe njohuri ne anen e databazes e cila do te zhvillohet me ane te mysql. 
+
+ 
+
+Fizibiliteti ekonomik (Opsionale) 
+
+ 
+
+ 
+
+Kostot e implementimit të sistemit 
+
+ 
+
+Çmimi i serverit mund të ndryshojë nga ofruesi në ofrues dhe kryesisht bazuar në sa vijon:  
+
+• Kapaciteti i ruajtjes  
+
+• RAM  
+
+• Sistemi operativ (Linux, Ubuntu, Windows)  
+
+• Softuerët mbështetës të softuerit të automatizimit të bibliotekave 
+
+Kostot operacionale 
+
+ 
+
+ 
+
+Analiza e rrjedhës së parasë 
+
+ 
+
+Return-on-Investment (ROI) Analysis (Llogaritjen kthimit mbi Investim)  
+
+Brake-Even Analysis (Llogaritjen e pikës se thyerjës/takimit perfitimit me Koston (BEP))  
+
+Net Present Value (NPV) (Llogariteni Vlerës Aktuale Neto (NPV)) 
+
+ 
+
+Metodologjia e zhvillimit të softuerit  
+
+Duhet të ketë 200 - 300 fjalë. 
+
+ 
+
+Definimi i Kërkesave (Product backlog)  
+
+Këtu duhet të vendosni definimin e produkt backlog të sistemit tuaj të realizuar ne Excel sipas mostrës së postuar në moodle. (Duhet te bashkangjitet ne word documet si tabelë dhe ndaras si file). 
+
+Secili anetar duhet: 
+
+Te realizoj minmum  nga 3 Epics per sistemin. 
+
+Te realizoj minmum  nga 4 User Story (tregime te perdoruesit) per secilen nga keto Epics. Qe nenkuton nje student duhet te realizoj 12 User Stories. 
+
+Për secilen User Storie të definohen nga minmum 4 tasks.  
+
+ 
+
+Për ti definuar qartë kërkesat, ju këshillojmë që të realizoni më shumë Epics, User Stories dhe Tasks, jo vetëm aq sa kemi specifikuar ne. (duke marrë parasyshë që ato janë minimale) 
+
+ 
+
+Të shënohet emri i secilit studentë në User Stories të realizuara.  
+
+ 
+
+Analiza 3C për User Stories  
+
+Minimum 3 User Stories për person ( Mund te merrni user stories qe keni realizuar ne dorezimet paraprake).  
+
+Të shënohet emri i secilit studentë në 3C të realizuara.  
+
+ 
+
+Klasifikimi i kërkesave  
+
+ 
+
+Ju duhet te realizojne 10 kerkesa funksionale dhe 10 kerkesa jofunksionale (per anetare te grupit)  - Të cilat rrjedhin nga Kriteret e Pranimit të cilat i keni realizuar tek 3C. 
+
+anetaret e grupeve te rrjetave qe kane temen e projektit te bazuar ne fushen e rrjetave dhe telekomunikimit duhet te realizojne 3 kerkesa funksionale dhe 7 kerkesa jofunksionale (per anetare te grupit) 
+
+ 
+
+Kërkesat funksionale  
+
+ 
+
+ 
+
+Kërkesat jo-funksionale  
+
+ 
+
+ 
+
+Use Cases Përshkrimet 
+
+ 
+
+Use Case Elementi 
+
+Përshkrimi  
+
+Numri i use case  
+
+ 
+
+Aplikacioni  
+
+ 
+
+Emri i use case  
+
+ 
+
+Përshkrimi  
+
+ 
+
+Aktori kryesor  
+
+ 
+
+Parakushtet  
+
+ 
+
+Trigger 
+
+ 
+
+Skenari bazik  
+
+ 
+
+Skenaret e vecanta  
+
+ 
+
+ 
+
+Skenarët 
+
+ 
+
+ 
+
+Dizajni 
+
+ 
+
+ 
+
+Dizajni konceptual i Arkitektures 
+
+ 
+
+ 
+
+Modulet e sistemit dhe diagrami i klasave 
+
+ 
+
+ 
+
+Dizajni i GUI  
+
+ 
+
+ 
+
+Dizajnimi i ERD për secilin modul  
+
+ 
+
+ 
+
+Përshkrimi i funksioneve të secilit modul  
+
+ 
+
+ 
+
+Diagramet e aktivitetit (Acitivity Diagram) 
+
+ 
+
+ 
+
+Testimi (Opsionale)  
+
+ 
+
+ 
+
+ 
+
+ 
+
+Referencat  
+
+ 
+
+Mënyra e targetimit të audiencës - https://easyaffiliate.com/blog/target-audience-profile/  
+
+Project Management - https://www.geeksforgeeks.org/ 
+
+ 
+
+ 
+
+Aneks Dokumentet 
+
+ 
+
+ 
+
+Inicimi i projektit 
+
+ 
+
+Projekti që ne do të zhvillojmë do të mundësoj menaxhimin e një sistemi të një biblioteke. 
+
+Qëllimi I krijimit është mirmbajtja e bibliotekave në cdo institucion arsimor përmes një sistemi të integruar kompjuterik. 
+
+Të dhënat dhe cdo veprim tjetër që kryhet në një bibliotekë bëhen zakonisht manualisht,gjë që krijon hapësirë për gabime gjatë koleksionimit të të dhënave të individëve,prandaj ky është pikërisht problemi kryesorë që dëshirojmë ta trajtojmë. 
+
+Projekti I propozuar synon të krijoj një menaxhim të lehtë dhe efektiv në mënyrë që koha të jetë sa më produktive. Do të filloj me grumbullimin e të dhënave të secilit person që regjistrohet në bibliotekë,duke përfshirë numrin e librave,zhanret,emrat dhe autorët e tyre,pastaj të dhëna e rikthimit të librave dhe dhurimi nga ana e dontorëve.  
+
+Me anë të këtij softueri biblotekarët dhe studentët nuk do të kenë nevojë të kërkojnë të gjithë bibliotekën për një libër specifik ,por thjesht mund ta kërkojnë në sistem emrin e autorit dhe titullin e librit.Gjithashtu do të shohin disponueshmërinë e tyre. 
+
+E një prej proceseve tjera që shfaq probleme është edhe procesi I gjurmimit.Data e lëshimit,data e kthimit  dhe kohzgjatja e mbajtjes së një libri,të cilat do të menaxhohen me një rrjedhshmëri shumë të mirë të punës. 
+
+Gjuhët programuese që do të përdoren për këtë aplikacion do të jenë për frontend react.js, për backend do të përdoret asp.net, për databazë do të përdoret ms sql server. Pastaj do të merremi me definimin e arkitekturës softuerike dhe dizajnimin e softuerit dhe pas gjithë këtyre hapave që bëhen nga ne si inxhinier softuerike duhet të vazhdojmë me Implementimin apo kodimin e këtij softueri.Ku pas implementimit të gjithë projektit do të vazhdojmë me testimin e aplikacionit ku ne si inxhinerë softuerik do të zgjedhim ekipin e specalizuar për testimin e softuerit, dhe pastaj do të bëhet dorzimi te klienti pas gjithë punës së bërë.Dhe si pjesë përfundimtare është edhe mirmbajtja dhe kontrollimi në mënyrë të funksionalitetit më të mirë. 
+
+ 
+
+ 
